@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+}
+
+.fonts {
+  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.head-container {
+  background-color: #ffc017;
+}
+
+.max-width-head {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  padding-block: 1.3rem;
+  align-items: center;
+  margin-inline: 64px;
+}
+
+#top-bar {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#nav-container {
+  margin-inline-start: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.head-body-container {
+  border-block: 1px solid black;
+}
+
+.head-body {
+  display: flex;
+  justify-content: center;
+}
+
+.block-margin-max-width {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: 64px;
+}
+
+.head-body-text {
+  padding-block: 5.45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3.3rem;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.head-body-text #head-body-textBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.head-body-text h1 {
+  font-family: "Spectral", serif;
+  font-size: 7rem;
+}
+
+.head-body-text h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.head-body-text button {
+  font-size: 1.25rem;
+  padding: 0.5rem 3rem;
+}
+
+.svg-container {
+  position: absolute;
+  right: 0;
+  width: 585px;
+}
+.svg-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.tranding {
+  border: 1px solid rgb(239, 238, 238);
+  width: 100%;
+}
+
+.tranding.flex {
+  justify-content: center;
+}
+
+#trending-padding {
+  padding-block: 40px 18px;
+}
+
+.head-trending.flex {
+  align-items: center;
+  gap: 10px;
+  margin-block-end: 1rem;
+}
+
+.trending-cards.flex {
+  flex-wrap: wrap;
+  margin-inline: -16px;
+  row-gap: 2rem;
+}
+
+#trending-cards-padding {
+  padding-inline: 16px;
+  max-width: 33.33333%;
+  flex-basis: 33.33333%;
+}
+
+.card.flex {
+  align-items: flex-start;
+  margin-block-end: 24px;
+}
+
+.card.flex .num {
+  margin-inline-end: 1.8rem;
+}
+
+.card.flex .num p.num-card {
+  position: relative;
+  top: -10px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.card-content.flex {
+  flex-direction: column;
+}
+
+.who.flex,
+.title-news {
+  margin-block-end: 0.5rem;
+}
+
+.who.flex {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.who.flex img {
+  width: 20px;
+  height: 20px;
+}
+
+.who.flex .who-name p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.who.flex .who-name p span {
+  color: gray;
+}
+
+.title-news h3 {
+  font-weight: 700;
+}
+
+span.date {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.body-main.flex {
+  justify-content: center;
+}
+
+.body-main-left {
+  padding-block-start: 3.5rem;
+  width: 60%;
+}
+
+.body-main-left-content {
+  padding-block-start: 0.75rem;
+  width: 100%;
+}
+
+.body-main-left-content.flex {
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.article-card.flex {
+  margin-block-end: 4rem;
+}
+
+.article-card-text.flex {
+  flex-direction: column;
+}
+
+.article-title {
+  line-height: 1.7rem;
+  margin-block-end: 0.5rem;
+}
+
+.article-title h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.article-title p {
+  color: grey;
+}
+
+.article-card-img img {
+  width: 200px;
+  height: 145.23px;
+  margin-inline-start: 1.5rem;
+}
+
+.article-footer.flex {
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.article-footer-link,
+.article-footer-star,
+.article-footer-bookmark {
+  display: flex;
+  text-align: center;
+}
+
+.article-footer-link a {
+  text-decoration: none;
+  color: gray;
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 0.2rem 0.5rem;
+}
+.article-footer-star {
+  flex-grow: 1;
+}
+
+.body-main-right {
+  flex-grow: 1;
+}
+
+.body-main-right {
+  padding-block-start: 3.5rem;
+  width: 40%;
+}
+
+.body-main-right-content {
+  padding-block-start: 0.4rem;
+}
+
+.body-main-right-content.flex {
+  align-items: center;
+  flex-direction: column;
+
+  justify-content: flex-start;
+}
+
+.voices.flex {
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-block-end: 1rem;
+  position: relative;
+}
+
+.voices.flex a:not(:last-of-type) {
+  text-decoration: none;
+  color: gray;
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+}
+
+#seeMore {
+  text-decoration: none;
+  color: green;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  transform: translateY(200%);
+}
